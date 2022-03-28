@@ -1,37 +1,18 @@
 # olá mundo
 
-You can use the [editor on GitHub](https://github.com/Albertosouzasoares/.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Você pode usar o editor no GitHub para manter e visualizar o conteúdo do seu site em arquivos Markdown.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Sempre que você se comprometer com este repositório, o GitHub Pages executará o Jekyll para reconstruir as páginas do seu site, a partir do conteúdo dos seus arquivos Markdown.
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Markdown é uma sintaxe leve e fácil de usar para estilizar sua escrita. Inclui convenções para
 
-```markdown
-Syntax highlighted code block
+Para obter mais detalhes, consulte Sintaxe básica de escrita e formatação .
 
-# Header 1
-## Header 2
-### Header 3
+### Temas Jekyll
 
-- Bulleted
-- List
+O site do seu Pages usará o layout e os estilos do tema Jekyll que você selecionou nas configurações do seu repositório . O nome deste tema é salvo no _config.ymlarquivo de configuração do Jekyll.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Albertosouzasoares/.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Suporte ou contato
+Está com problemas com o Pages? Confira nossa documentação ou entre em contato com o suporte e ajudaremos você a resolver o problema.
