@@ -74,7 +74,16 @@ li a:hover {
     border-top: 2px solid;
     width: 20px;
   }
-  #hamburger::after,
+  #hamburger::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
   #hamburger::before {
     display: block;
     width: 20px;
