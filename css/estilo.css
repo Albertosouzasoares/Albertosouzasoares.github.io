@@ -133,7 +133,7 @@ display: none;
     margin-top: 8px;
   }
 }
-
+/*
 /* BANER */
 #baner {
   background-image: url('baner.jpg');
@@ -149,7 +149,6 @@ display: none;
   padding-top: 6.2rem;
   text-align: center;
 }
-/*
 @media (min-width: 600px) {
   #texto-do-baner {
     position: relative;
