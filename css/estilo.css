@@ -1,4 +1,4 @@
-@charset "UTF-8";
+charset "UTF-8";
 
 * {
   margin: 0px;
@@ -58,7 +58,7 @@ display: none;
 #icones {
   display: none;
 }
-@media (max-width: 600px) {
+media (max-width: 600px) {
   #menu {
     display: block;
     position: absolute;
