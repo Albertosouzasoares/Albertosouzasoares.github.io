@@ -58,7 +58,7 @@ display: none;
 #icones {
   display: none;
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   #menu {
     display: block;
     position: absolute;
@@ -149,7 +149,8 @@ display: none;
   padding-top: 6.2rem;
   text-align: center;
 }
-@media only screen and (min-width: 600px) {
+/*
+@media (min-width: 600px) {
   #texto-do-baner {
     position: relative;
     width: 80%;
@@ -160,3 +161,4 @@ display: none;
     text-align: center;
   }
 }
+*/
