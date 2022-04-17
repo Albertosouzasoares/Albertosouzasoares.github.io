@@ -136,7 +136,7 @@ display: none;
 
 /* BANER */
 #baner {
-  background-image: url('baner.jpg');
+  background-image: url('css/baner.jpg');
   background-size: cover;
   position: relative;
 }
