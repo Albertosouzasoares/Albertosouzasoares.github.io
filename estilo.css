@@ -173,7 +173,7 @@ li a:hover {
   margin-right: auto;
   padding-bottom: 4.5rem;
   padding-top: 4.5rem;
-  text-align: center;
+  text-align: left;
 }
 @media (min-width: 600px) {
   #baner h1 {
