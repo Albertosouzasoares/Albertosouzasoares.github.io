@@ -55,7 +55,7 @@ li a:hover {
 #icones {
   display: none;
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   #menu {
     display: block;
     position: absolute;
@@ -146,7 +146,7 @@ li a:hover {
   padding-top: 6.2rem;
   text-align: center;
 }
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
   #texto-do-baner {
     position: relative;
     width: 80%;
