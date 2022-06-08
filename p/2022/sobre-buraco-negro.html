@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="../../arquivos/css/style.css">
+  <title>O que sabemos sobre os Buracos Negros</title>
+</head>
+<body>
+  
+  <!--Header-->
+  <header>
+    <div class="espaco">
+      
+      <!--Logo-->
+      <a href="../../index.html">
+        <img class="logo" src="../../arquivos/icones/logo.png" alt="Astro Fantástico"/>
+      </a>
+      
+      <!--Menu-->
+      <nav id="nav">
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+          <span id="hamburger"></span>
+        </button>
+        
+        <ul class="menu">
+          <li><a class="divisao"href="../../index.html">Inicio</a></li>
+          <li><a href="../../eventos-astronomicos.html">Eventos Astronômicos</a></li>
+          <li><a href="../../sobre.html">Sobre</a></li>
+          <li><a href="../../mais.html"><i class="fas fa-search"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!--Main-->
+  <main>
+    <article>
+      <h1>O que sabemos sobre os Buracos Negros</h1>
+      <p>
+        Os buracos são um dos corpos celestes mais misteriosos do universo. Um buraco negro possui uma enorme quantidade de matéria compactada em um espaço pequeno do universo.
+      </p>
+      <img src="midias/img-representaçao-buraco-negro.jpg" alt="Representação de um Buraco Negro acretando matéria"/>
+      <p>
+        Os buracos negros foram previstos grassas a <a href="teoria-relatividade-geral-restrita.html">teoria da relatividade geral de Albert Einstein 🔗</a>, prevendo que uma massa suficientemente compacta pode deformar o espaço-tempo para formar um buraco negro.
+      </p>
+      <p>
+        <strong>Em 10 de abril de 2019</strong>, a primeira imagem direta de um buraco negro e sua vizinhança foi publicada, a observações feitas pelo <a href="https://eventhorizontelescope.org/" target="_blank">Event Horizon Telescope 🔗</a> em 2017 do buraco negro supermassivo no centro da galáxia de <strong>Messier 87</strong>.
+      </p>
+      <img src="midias/img-buraco-negro-m87.jpg" alt="Buraco Negro M87*"/>
+      <h2>Buraco Negro Estelar</h2>
+      <p>
+        Um buraco negro estelar pode ser formador por uma <strong>estrela super massiva</strong>, que colapsam no final de seu ciclo de vida. Após a formação de um buraco negro, ele pode continuar a crescer absorvendo a massa do ambiente.
+      </p>
+      <h2>Buraco Negro Super Massivo</h2>
+      <p>
+        Um buraco negro super massivo pode ser formador por grandes <strong>nuvens de gás</strong> que se colapsaram sobre a sua própria gravidade, ou aglomerados de milhões de estrelas quando o universo ainda era bem mais jovem e denso.
+      </p>
+      
+      <!--Cideo-->
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cNEfspEqfO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <br/>
+    </article>
+    
+    <!--Compartilhar-->
+    <div class="compartilhar">
+      <a href="javascript:void(0)" onclick="share()"><img width="60" height="60" src="../../arquivos/icones/compartilhar.png" alt="compartilhar">
+      </a>
+    </div>
+  </main>
+  
+  <!--Anterior e Próximo-->
+  <div class="a-p">
+    <a href="stephenson-2-18.html">< ANTERIOR</a>
+    <a href="telescopio-james-webb.html">PRÓXIMO ></a>
+  </div>
+  
+  <!--Footer-->
+  <footer>
+    <div class="icones">
+      <a href="https://instagram.com/astrofantastico_" target="_blank"><ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <a href="https://www.youtube.com/channel/UCs9z66b9KHZlKdhgitay8gA" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+    </div>
+    <p>&copy; 2022 Astro Fantastico | <a href="../../politica-de-privacidade.html">Privacidade</a></p>
+  </footer>
+  
+  <!--Script-->
+  <script src="../../arquivos/js/script.js"></script>
+  <script>
+    function share(){
+    	if (navigator.share !== undefined) {
+    		navigator.share({
+    			title: 'O que sabemos sobre os Buracos Negros',
+    			text: 'Os buracos são um dos corpos celestes mais misteriosos do universo.',
+    			url: 'https://astrofantastico.com.br/p/2022/sobre-buraco-negro.html',
+    		})
+    		.then(() => console.log('Successful share'))
+    		.catch((error) => console.log('Error sharing', error));
+    	}
+    }
+  </script>
+  <script  type="module"  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script  nomodule  src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
