@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="arquivos/css/style.css">
+  
+  <link rel="favicon-512×512" sizes="512x512" href="arquivos/icones/favicon-512×512.png">
+  <link rel="icon" type="image/png" sizes="180×180" href="arquivos/icones/favicon-180×180.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="arquivos/icones/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="arquivos/icones/favicon-16x16.png">
+  <link rel="shortcut icon" href="arquivos/icones/favicon.ico" type="image/x-icon"/>
+  <title>Eventos Astronônicos</title>
+  <style>
+    #janeiro, #fevereiro, #marco, #abril, #maio, #julho, #agosto, #setembro, #outubro,#novembro, #dezembro {
+      display: none;
+    }
+    .none{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  
+  <!--Header-->
+  <header>
+    <div class="espaco">
+      
+      <!--Logo-->
+      <a href="https://astrofantastico.com.br">
+        <img class="logo" src="arquivos/icones/logo.png" alt="Astro Fantástico"/>
+      </a>
+      
+      <!--Menu-->
+      <nav id="nav">
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+          <span id="hamburger"></span>
+        </button>
+        
+        <ul class="menu">
+          <li><a class="divisao"href="https://astrofantastico.com.br">Inicio</a></li>
+          <li><a href="eventos-astronomicos">Eventos Astronômicos</a></li>
+          <li><a href="sobre">Sobre</a></li>
+          <li><a href="mais"><i class="fas fa-search"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!--Main-->
+  <main style="margin-bottom: 20px;">
+    <h1 style="text-align: center;">EVENTOS ASTRONÔMICOS 2022</h1>
+    <br/>
+    
+    <!--Janeiro-->
+    <div class="box">
+      <button id="button" onclick="mostrar1();"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <h2>Janeiro</h2>
+      <button id="button" onclick="ocultar1();"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
+    <div id="janeiro">
+      <img src="" alt=""/>
+      <p>
+        <strong style="color: black;">(03/01)</strong> <strong>Chuva de meteoros:</strong> Esta chuva tem origem na região entre as Constelações Ocidentais do Boieiro, Dragão e Ursa Maior (23:00).
+      </p>
+      <p>
+        <strong style="color: black;">(10/01)</strong> <strong>Conjunção:</strong> Mercúrio, Saturno e Júpiter estarão muito próximos uns dos outros, em conjunção, na região da Constelação Ocidental de Capricórnio. Saturno e Mercúrio estarão paralelos e são o segundo e o terceiro menos brilhantes. Já Júpiter, o mais brilhante dos três, aparecerá “acima” deles (19:30).
+      </p>
+      <p>
+        <strong style="color: black;">(14/01)</strong> <strong>Lua e Planetas:</strong> Lua, Mercúrio, Júpiter e Saturno poderão ser vistos juntos no céu, próximos do horizonte a oeste. De oeste para leste, teremos: Saturno, mais próximo do horizonte oeste; Júpiter, o mais brilhante entre esse grupo de planetas; Mercúrio, o menos brilhante de todos; e, por fim, a Lua (19:30).
+      </p>
+    </div>
+    
+    <!--Fevereiro-->
+    <div class="box">
+      <button id="button" onclick="mostrar2();"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <h2>Fevereiro</h2>
+      <button id="button" onclick="ocultar2();"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
+    <div id="fevereiro">
+      <img src="" alt=""/>
+      <p>
+        <strong style="color: black;">(02/02)</strong> <strong>Conjunção:</strong> Lua e Júpiter estarão em conjunção, perto do horizonte oeste, logo após o pôr do Sol (19:30).
+      </p>
+      <p>
+        <strong style="color: black;">(25/02)</strong> <strong>Planetas:</strong> Saturno se junta a Vênus, Marte e Mercúrio, perto do horizonte leste (04:30).
+      </p>
+      <p>
+        <strong style="color: black;">(27/02)</strong> <strong>Conjunção:</strong> Lua e Marte estarão em conjunção, próximos do horizonte leste (04:30).
+      </p>
+    </div>
+      
+    <!--Março-->
+    <div class="box">
+      <button id="button" onclick="mostrar3();"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <h2>Março</h2>
+      <button id="button" onclick="ocultar3();"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
+    <div id="marco">
+      <img src="" alt=""/>
+      <p>
+        <strong style="color: black;">(01/03 – 06/03)</strong> <strong>Aproximação de planetas:</strong> Saturno e Mercúrio estarão muito próximos um do outro no céu (05h – 06h).
+      </p>
+      <p>
+        <strong style="color: black;">(20/03)</strong> <strong>Equinócio de Outono:</strong> Equinócio é um evento que ocorre duas vezes ao ano, marcando o início das estações primavera e outono. Durante os equinócios, o dia e a noite têm a mesma duração (12:33).
+      </p>
+      <p>
+        <strong style="color: black;">(21/03)</strong> <strong>Conjunção:</strong> Júpiter e Mercúrio estarão em conjunção, perto do horizonte leste (05:30 – 06h).
+      </p>
+    </div>
+    
+    <!--Abril-->
+    <div class="box">
+      <button id="button" onclick="mostrar4();"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <h2>Abril</h2>
+      <button id="button" onclick="ocultar4();"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
+    <div id="abril">
+      <img src="" alt=""/>
+      <p>
+        <strong style="color: black;">(05/04 – 06/04)</strong> <strong>Conjunção:</strong> Marte e Saturno estarão em conjunção, perto do horizonte leste. Nesta conjunção, os planetas parecem tão próximos que, a olho nu, se tornarão um único ponto (03h – 06h).
+      </p>
+      <p>
+        <strong style="color: black;">(22/04)</strong> <strong>Chuva de meteoros:</strong> Esta é uma chuva com taxas de meteoros medianas, durante o seu pico são esperados aproximadamente 18 meteoros por hora. Esta chuva se originar na Constelação Ocidental de Lira (00h – 06:30).
+      </p>
+      <p>
+        <strong style="color: black;">(24/04)</strong> <strong>Lua e Planetas:</strong> A Lua e os planetas Júpiter, Vênus, Marte e Saturno poderão ser vistos na mesma região do céu ao mesmo tempo. De oeste para leste, teremos: Lua, Saturno, Marte, Vênus e, por fim, mais próximo do horizonte (04h – 06h).
+      </p>
+    </div>
+    
+    <!--Maio-->
+    <div class="box">
+      <button id="button" onclick="mostrar5();"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <h2>Maio</h2>
+      <button id="button" onclick="ocultar5();"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
+    <div id="maio">
+      <img src="" alt=""/>
+      <p>
+        <strong style="color: black;">(04/05 – 06/05)</strong> <strong>Chuva de meteoros:</strong> A chuva de meteoros Eta Aquáridas e gerada por destroços do famoso Cometa Halley, na região da Constelação Ocidental de Aquário (02:25 – 06h).
+      </p>
+      <p>
+        <strong style="color: black;">(08/05 – 10/05)</strong> <strong>Chuva de meteoros:</strong> Pico da chuva de meteoros η-Líridas na região da Constelação Ocidental de Lira (00:20 – 06:30).
+      </p>
+      <p>
+        <strong style="color: black;">(16/05)</strong> <strong>Elipse lunar:</strong> Este eclipse será observável em todo o Brasil. A fase total do Eclipse, quando a Lua está completamente encoberta pela sombra da Terra, deve durar cerca de uma hora e vinte minutos (00:29).
+      </p>
+    </div>
+    
+    <!--Junho-->
+    <div class="box">
+      <button id="button" onclick="mostrar6();"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <h2>Junho</h2>
+      <button id="button" onclick="ocultar6();"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
+    <div id="junho">
+      <img src="" alt=""/>
+      <p>
+        <strong style="color: black;">(07/06)</strong> <strong>Chuva de meteoros:</strong> Pico da chuva de meteoros Arietídeas Diurna. Próximos do horizonte leste (03h – 07h).
+      </p>
+      <p>
+        <strong style="color: black;">(14/06)</strong> <strong>Superlua:</strong> A Lua estará no ponto da sua órbita mais próximo da Terra, conhecido na Astronomia como “perigeu”.
+      </p>
+      <p style="padding-bottom: 15px;">
+        <strong style="color: black;">(21/06)</strong> <strong>Estação do ano:</strong> Tem início o inverno no Hemisfério Sul. Neste dia, conhecido na astronomia como “Solstício de inverno”, teremos a noite mais longa do ano.
+      </p>
+    </div>
+    
+    <!--Julho-->
+    <div class="none">
+      <button id="button" onclick="mostrar7();"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <h2>Julho</h2>
+      <button id="button" onclick="ocultar7();"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
+    <div id="julho">
+      <h2>em breve</h2>
+    </div>
+    
+    <!--Agosto-->
+    <div class="none">
+      <button id="button" onclick="mostrar8();"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <h2>Agosto</h2>
+      <button id="button" onclick="ocultar8();"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
+    <div id="agosto">
+      <h2>em breve</h2>
+    </div>
+    
+    <!--Setembro-->
+    <div class="none">
+      <button id="button" onclick="mostrar9();"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <h2>Setembro</h2>
+      <button id="button" onclick="ocultar9();"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
+    <div id="setembro">
+      <h2>em breve</h2>
+    </div>
+    
+    <!--Outubro-->
+    <div class="none">
+      <button id="button" onclick="mostrar10();"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <h2>Outubro</h2>
+      <button id="button" onclick="ocultar10();"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
+    <div id="outubro">
+      <h2>em breve</h2>
+    </div>
+    
+    <!--Novembro-->
+    <div class="none">
+      <button id="button" onclick="mostrar11();"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <h2>Novembro</h2>
+      <button id="button" onclick="ocultar11();"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
+    <div id="novembro">
+      <h2>em breve</h2>
+    </div>
+    
+    <!--Dezembro-->
+    <div class="none">
+      <button id="button" onclick="mostrar12();"><ion-icon name="chevron-down-outline"></ion-icon></button>
+      <h2>Dezembro</h2>
+      <button id="button" onclick="ocultar12();"><ion-icon name="chevron-up-outline"></ion-icon></button>
+    </div>
+    <div id="dezembro">
+      <h2>em breve</h2>
+    </div>
+    
+    <!--Compartilhar-->
+    <div class="compartilhar">
+      <a href="javascript:void(0)" onclick="share()"><img width="60" height="60" src="arquivos/icones/compartilhar.png" alt="compartilhar">
+      </a>
+    </div>
+  </main>
+  
+  <!--Footer-->
+  <footer>
+    <div class="icones">
+      <a href="https://instagram.com/astrofantastico_" target="_blank"><ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <a href="https://www.youtube.com/channel/UCs9z66b9KHZlKdhgitay8gA" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+    </div>
+    <p>&copy; 2022 Astro Fantastico | <a href="politica-de-privacidade">Privacidade</a></p>
+  </footer>
+  
+  <!--Script-->
+  <script>
+    function share(){
+    	if (navigator.share !== undefined) {
+    		navigator.share({
+    			title: 'Eventos Astronômicos 2022',
+    			text: 'Superlua: A Lua estará no ponto da sua órbita mais próximo da Terra, conhecido na Astronomia como “perigeu”',
+    			url: 'https://astrofantastico.com.br/eventos-astronomicos',
+    		})
+    		.then(() => console.log('Successful share'))
+    		.catch((error) => console.log('Error sharing', error));
+    	}
+    }
+  </script>
+  <script src="arquivos/js/script.js"></script>
+  <script  type="module"  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script  nomodule  src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
